@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "content.css";
+@import "responsive.css";
+@font-face {
+  font-family: "Pomidor";
+  src: url("pomidor/Pomidor.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
