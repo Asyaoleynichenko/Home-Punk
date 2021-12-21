@@ -1,11 +1,6 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
   @media all and (max-width: 1340px) {
-  	.sidebar {
-  		display: none;
-  	}/*  */
-  }/*Мы написали медиа запрос, для всех размеров,
-   и сказали ему скрывать sidebar при максимальной ширине в 1340px */
 
    @media all and (min-width: 1020px) {
   	 img { width: 700px;
