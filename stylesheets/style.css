@@ -2,11 +2,11 @@
 @import "content.css";
 @import "responsive.css";
 @font-face {
-  font-family: "PomidorRegular";
-  src: url("../fonts/PomidorRegular.otf") format("truetype");
+  font-family: "Pomidor";
+  src: url("../fonts/Pomidor.otf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 h1{
-  font-family:PomidorRegular;
+  font-family:Pomidor;
 }
