@@ -22,13 +22,6 @@
       grid-area: b2;
    }
 
-
-
-
-.im3{
- width: 146px;
-  height: 846px;
-}
 .box3 {
     display: flex;
     align-items: center;
@@ -38,12 +31,20 @@
    }
 
 .box4 {
-    background-color: yellow;
+  display: relative;
+  align-items: center;
+  justify-content: space-around;
+  height: 35vw;
+    background-color: #FF029C;
      grid-area: box4;
    }
 
 .box5 {
-    background-color: pink;
+  display: relative;
+  align-items: center;
+  justify-content: space-around;
+  max-width:100%;
+    background-color: black;
      grid-area: b5;
    }
 
@@ -158,11 +159,35 @@
       position: relative;
       display: inline-block;
       vertical-align: top;
+      object-fit: cover;
    }
    .im2{
+     width: 100%;
+      height: 100%;
       position: relative;
       display: inline-block;
       vertical-align: top;
+   }
+   .im3{
+     width: 100%;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+        object-fit: cover;
+   }
+   .im4{
+     width: 100%;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+        object-fit: cover;
+   }
+   .im5{
+     width: 100%;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      object-fit: cover;
    }
 .text{
     width: 100%;
