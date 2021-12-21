@@ -1,8 +1,8 @@
 .container {
   display: grid;
   position: relative;
-  grid-template-columns: 1.21fr 3.95fr 1fr 2fr;
-  grid-template-rows: 2fr 1.5fr;
+  grid-template-columns: 1.21fr 3.95fr 0.5fr 2fr;
+  grid-template-rows: 2fr 2fr;
   grid-template-areas:
     "box1 b2 box3 box4"
     "box1 b5 box3 box6"
@@ -184,6 +184,14 @@
    }
    .im5{
      width: 100%;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      object-fit: cover;
+   }
+   .im6{
+     width: 100%;
+      height: 100%;
       position: relative;
       display: inline-block;
       vertical-align: top;
