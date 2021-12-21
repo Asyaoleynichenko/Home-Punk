@@ -15,13 +15,12 @@
 }
 
 .box2 {
-    background-image: url(img/Group 201.svg);
       background-color: green;
      grid-area: box2;
    }
 
 .box3 {
-    background-color: red;
+    background-color: black;
      grid-area: box3;
    }
 
