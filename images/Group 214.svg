@@ -1,7 +1,19 @@
-<svg width="188" height="521" viewBox="0 0 188 521" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="47" y="521" width="129" height="24" rx="5" transform="rotate(-90 47 521)" fill="#7D7C7C"/>
-<rect x="117" y="521" width="129" height="24" rx="5" transform="rotate(-90 117 521)" fill="#7D7C7C"/>
-<path d="M88 408L88 1.54972e-06H98L98 408H88Z" fill="#C4C4C4"/>
-<rect y="450" width="117" height="188" rx="22" transform="rotate(-90 0 450)" fill="#C4C4C4"/>
-<rect x="71" y="333" width="26" height="46" transform="rotate(-90 71 333)" fill="#C4C4C4"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 188 521" style="enable-background:new 0 0 188 521;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7D7C7C;}
+	.st1{fill:#C4C4C4;}
+</style>
+<g>
+	<path class="st0" d="M73.88,220.86v-50.93c0-1.18,0.96-2.14,2.14-2.14h5.99c1.18,0,2.14,0.96,2.14,2.14v50.93
+		c0,1.18-0.96,2.14-2.14,2.14h-5.99C74.84,223,73.88,222.04,73.88,220.86z"/>
+	<path class="st0" d="M103.84,220.86v-50.93c0-1.18,0.96-2.14,2.14-2.14h5.99c1.18,0,2.14,0.96,2.14,2.14v50.93
+		c0,1.18-0.96,2.14-2.14,2.14h-5.99C104.8,223,103.84,222.04,103.84,220.86z"/>
+	<path class="st1" d="M91.43,174.63V0h4.28v174.63H91.43z"/>
+	<path class="st1" d="M53.77,183.19v-31.25c0-5.2,4.22-9.42,9.42-9.42h61.64c5.2,0,9.42,4.22,9.42,9.42v31.25
+		c0,5.2-4.22,9.42-9.42,9.42H63.18C57.98,192.61,53.77,188.39,53.77,183.19z"/>
+	<rect x="84.16" y="131.4" class="st1" width="19.69" height="11.13"/>
+</g>
 </svg>

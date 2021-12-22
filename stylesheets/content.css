@@ -2,9 +2,10 @@
   display: grid;
   position: relative;
   grid-template-columns: 1.21fr 3.95fr 1fr 2fr ;
-  grid-template-rows: 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "box1 b2 box3 box4"
+    "box1 b2 box3 box6"
     "box1 b5 box3 box6"
 }
 
@@ -15,13 +16,24 @@
 }
 
 .box2 {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
+      position:relative;
+      /* display: flex;
+      align-items: center; */
+      /* justify-content: space-around; */
       height: 100%;
       background-color: black;
       grid-area: b2;
    }
+
+.flex1{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+}
 
 .box3 {
     display: flex;
@@ -41,9 +53,10 @@
    }
 
 .box5 {
-  display: inline-block;
+  /* display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around; */
+  position: relative;
   max-width:100%;
     background-color: black;
      grid-area: b5;
@@ -89,9 +102,7 @@
 }
 
 .box10 {
-  display: relative;
-  align-items: center;
-  justify-content: space-around;
+  position: relative;
   max-width:100%;
    grid-area: box10;
    background: url('../images/Group 208.svg');
@@ -101,12 +112,12 @@
  .container3 {
    display: grid;
    position: relative;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: 1fr 1fr 1fr;
    grid-template-areas:
-     "box11 box11 box11 box12 box12 box12"
-     "box11 box11 box11 box12 box12 box12"
-     "box11 box11 box11 box12 box12 box12";
+     "box11 box11 box11 box12 box12 box12 box12"
+     "box11 box11 box11 box12 box12 box12 box12"
+     "box11 box11 box11 box12 box12 box12 box12";
  }
 
 
@@ -137,8 +148,6 @@
 
   .box13  {
     position:relative;
-    align-items: center;
-    justify-content: space-around;
     max-width:100%;
      grid-area: box13;
      background: url('../images/Group 208.svg');
@@ -158,8 +167,8 @@
      grid-template-columns: 1fr 1fr 1fr 1fr ;
      grid-template-rows: 1fr  1fr ;
      grid-template-areas:
-       "box15 box15 box15 box16 box16"
-       "box15 box15 box15 box16 box16";
+       "box15 box15 box16 box16"
+       "box15 box15 box16 box16";
    }
 
    .box15 {
@@ -172,13 +181,12 @@
    }
 
    .box16 {
-      display: flex;
      position:relative;
-     align-items: center;
-     justify-content: space-around;
      max-width:100%;
      background: url('../images/Монтажная область 21 1.svg');
      grid-area: box16;
+     overflow: hidden;
+     white-space: nowrap;
    }
    .container6 {
      position: relative;
@@ -198,11 +206,12 @@
       object-fit: cover;
    }
    .im2{
-     width: 100%;
-      height: 100%;
-      position: relative;
-      display: inline-block;
-      vertical-align: top;
+      width: 70%;
+      height: 70%;
+
+      /* position: absolute; */
+      /* display: inline-block;
+      vertical-align: top; */
    }
    .im3{
      width: 100%;
@@ -219,12 +228,25 @@
         object-fit: cover;
    }
    .eyes3{
+  position: absolute;
+  display:flex;
      width: 100%;
-      position: relative;
-      display: flex;
-      vertical-align: center;
-      object-fit: cover;
+     height: 100%;
+     align-items: flex-end;
+    justify-content: center;
+      /* vertical-align: center;
+      object-fit: cover; */
    }
+.im5{
+  /* height:21.5vw; */
+}
+.im5.1{
+  height:21.5vw;
+}
+
+.im5.2{
+  /* height:21.5vw; */
+}
 
    .im6{
      width: 100%;
@@ -249,20 +271,24 @@
       object-fit: cover;
    }
    .im9{
-     width: 100%;
-     height: 100%;
-      position: relative;
+     width: 10vw;
+     height: %;
       display: inline-block;
-      object-fit: fill;
+      object-fit: cover;
    }
    .im10{
-     display: flex;
-     width: 100%;
+      width: 100%;
       height: 100%;
-      position: relative;
-      align-items: center;
-      object-fit: fill;
+      position: absolute;
+      animation: im10 3s infinite;
    }
+   @keyframes im10 {
+     35%{transform: rotate(20deg);}
+     70%{transform: rotate(-20deg);}
+
+   }
+
+
    .im11{
      display: flex;
      width: 100%;
@@ -280,11 +306,11 @@
       object-fit: cover;
    }
    .im13{
-     width: 100%;
-      height: 100%;
-      position: relative;
-      display: inline-block;
-      vertical-align: center;
+     width: 80%;
+      height: 80%;
+      position: absolute;
+      top:3.9vw;
+
    }
    .im14{
      width: 100%;
@@ -301,27 +327,36 @@
         vertical-align: top;
      }
      .im17{
-       width: 100%;
-        height: 100%;
-        position: fixed;
-        display: inline-block;
-        vertical-align: top;
-
+        height: 70%;
+        position: absolute;
+        vertical-align: center;
      }
-       .im16{
-         width: 100%;
-          position: relative;
-          display: inline-block;
-          align-items: center;
-            object-fit: cover;
-        }
+     .im17{
+       animation: opacity 5s infinite;
+     }
+     @-webkit-keyframes opacity {
+    50% {opacity: 0;}
+}
+.im16{
+  width: 100%;
+  position: absolute;
+  /* animation: im16 1s infinite; */
+  }
+
+.im16:hover{
+  animation: im16 1s infinite;
+}
+
+@keyframes im16 {
+  0%{top:0;}
+  50%{top:-18vw;}
+  100%{top:0;}
+
+}
         .text{
             width: 100%;
             background: #FF029C;
             padding: 20px;
             -webkit-box-sizing: border-box;
            }
-        }
-        .line1{
-
         }
