@@ -93,7 +93,9 @@
   justify-content: space-around;
   max-width:100%;
    grid-area: box10;
+   background: url('../images/Group 208.svg');
    background-color: black;
+
  }
  .container3 {
    display: grid;
@@ -120,7 +122,7 @@
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr ;
 
     grid-template-areas:
       "box13 box13 box13 box14 box14"
@@ -231,11 +233,12 @@
       object-fit: fill;
    }
    .im10{
+     display: flex;
      width: 100%;
       height: 100%;
       position: relative;
-      display: inline-block;
-      object-fit: cover;
+      align-items: center;
+      object-fit: fill;
    }
 .text{
     width: 100%;
