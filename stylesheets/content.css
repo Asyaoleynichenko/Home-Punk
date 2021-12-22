@@ -200,7 +200,8 @@
      width: 100%;
       display: flex;
       position: relative;
-      object-fit: cover;
+      vertical-align: center;
+      object-fit: fill;
    }
    .im6{
      width: 100%;
