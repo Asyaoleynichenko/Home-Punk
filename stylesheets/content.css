@@ -284,17 +284,7 @@
       height: 100%;
       position: relative;
       display: inline-block;
-      vertical-align: top;
-   }
-   .line{
-     width: 31.429vw;
-  height: 1.143vw;
-  left: 71.429vw;
-  top: 57.071vw;
-  animation:lineanim 2s infinite;
-      position: absolute;
-      display: inline-block;
-      vertical-align: top;
+      vertical-align: center;
    }
    .im14{
      width: 100%;
@@ -331,4 +321,7 @@
             padding: 20px;
             -webkit-box-sizing: border-box;
            }
+        }
+        .line1{
+
         }
