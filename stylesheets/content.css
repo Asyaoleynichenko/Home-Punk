@@ -240,6 +240,11 @@
 .im5{
   /* height:21.5vw; */
 }
+.ball{
+  width: 5vw;
+  height: 10vw;
+  background-color: black;
+}
 .im5.1{
   height:21.5vw;
 }
