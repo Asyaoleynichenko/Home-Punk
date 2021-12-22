@@ -198,10 +198,9 @@
    }
    .im5{
      width: 100%;
+      display: flex;
       position: relative;
-      display: inline-block;
-      vertical-align: center;
-      object-fit: fill;
+      object-fit: cover;
    }
    .im6{
      width: 100%;
