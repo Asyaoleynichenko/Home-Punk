@@ -146,15 +146,17 @@
   }
 
   .box14 {
+    width:100%;
+    position:relative;
+    align-items: center;
      grid-area: box14;
      background-color: black;
    }
    .container5 {
      display: grid;
      position: relative;
-     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-     grid-template-rows: 1fr 1fr  ;
-
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     grid-template-rows: 2fr   ;
      grid-template-areas:
        "box15 box15 box15 box16 box16"
        "box15 box15 box15 box16 box16";
@@ -170,6 +172,7 @@
    }
 
    .box16 {
+      display: flex;
      position:relative;
      align-items: center;
      justify-content: space-around;
@@ -217,27 +220,7 @@
         object-fit: cover;
    }
 
-   .im5{
-     display: inline-block;
-     width: 100%;
-     height: 100%;
-      position: relative;
-      object-fit: cover;
-   }
-   .im5.1{
-     display: inline-block;
-     width: 100%;
-     height: 100%;
-      position: relative;
-      object-fit:fill;
-   }
-   .im5.2{
-     display: inline-block;
-     position: relative;
-     width: 100%;
-     height: 100%;
-      object-fit:fill;
-   }
+
    }
    .im6{
      width: 100%;
