@@ -108,16 +108,18 @@
      "box11 box11 box11 box12 box12 box12";
  }
 
- .box12 {
-   background-color: black;
-    grid-area: box12;
-  }
 
  .box11 {
-   background-color: pink;
-   height: 100vw;
+   display: relative;
+   align-items: center;
+   justify-content: space-around;
+   width:100%;
     grid-area: box11;
   }
+  .box12 {
+    background-color: black;
+     grid-area: box12;
+   }
   .container4 {
     display: grid;
     position: relative;
@@ -246,6 +248,22 @@
       object-fit: fill;
    }
    .im10{
+     display: flex;
+     width: 100%;
+      height: 100%;
+      position: relative;
+      align-items: center;
+      object-fit: fill;
+   }
+   .im11{
+     display: flex;
+     width: 100%;
+      height: 100%;
+      position: relative;
+      align-items: center;
+      object-fit: fill;
+   }
+   .im12{
      display: flex;
      width: 100%;
       height: 100%;
