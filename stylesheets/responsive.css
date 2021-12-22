@@ -5,21 +5,26 @@
   /* iPad */
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 0.5fr 0.5fr ;
+    grid-template-columns: 1fr 2fr 1fr 1fr ;
+    grid-template-rows: 0.5fr  ;
     grid-template-areas:
       "box1 box2 box2 box3 box4"
       "box1 box5 box5 box3 box6";
   }
 
-  .box1 { grid-area: box1; }
-
-  .box4 { grid-area: box4; }
-
-  .box2 { grid-area: box2; }
-
-  .box3 { grid-area: box3; }
-
-  .box5 { grid-area: box5; }
-
-  .box6 { grid-area: box6; }
+  .box1{
+     height: 10vw;
+  }
+  .box4{
+     height: 7vw;
+  }
+  .box7{
+     height: 7vw;
+  }
+  .box10{
+     height: 7vw;
+  }
+  .box12{
+     height: 7.8125vw;
+     background-color: #7fffd4;
+  }

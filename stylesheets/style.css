@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "content.css";
 @import "responsive.css";
+@import "animation.css";
 @font-face {
   font-family: "Pomidor";
   src: url("../fonts/Pomidor.otf") format("truetype");
