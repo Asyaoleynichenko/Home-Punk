@@ -64,7 +64,11 @@
   grid-area: box7;
   background-color: black;
 }
-
+.t1{
+  position: absolute;
+  padding-left: 20px;
+  top: 32px;
+}
 .box8 {
   position:relative;
   align-items: center;
@@ -73,7 +77,6 @@
     background-color: black;
   grid-area: box8;
 }
-
 .box9 {
   display: relative;
   align-items: center;
@@ -249,6 +252,7 @@
       height: 100%;
       object-fit: cover;
    }
+
    .im9{
      width: 10vw;
      height: %;
