@@ -61,6 +61,7 @@
   font-size: 3vw;
   top:14vw;
   right: 9vw;
+
 }
 .box9 {
   display: relative;
@@ -296,6 +297,13 @@
      font-size: 5vw;
      top:7vw;
      left: 5vw;
+     animation:im9 .3s infinite;
+  }
+
+  @keyframes im9 {
+    0%{opacity:100%;}
+    50%{opacity:0%;}
+    100%{opacity:100%;}
 
    }
 
