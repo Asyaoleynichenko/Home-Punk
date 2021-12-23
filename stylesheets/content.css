@@ -55,6 +55,13 @@
   75% {top:10vw; left: 1vw;}
   90% {top:8vw; left: 1vw;}
 }
+.t2{
+  position: absolute;
+  font-family:Pomidor;
+  font-size: 4vw;
+  top:14vw;
+  right: 6vw;
+}
 .box9 {
   display: relative;
   align-items: center;
@@ -248,12 +255,7 @@
       height: 100%;
       object-fit: cover;
    }
-.d1{
-  position: absolute;
-  height: 10%;
-  vertical-align: top;
-  padding-left: 30px;
-}
+
    .im9{
      width: 10vw;
      height: %;
@@ -287,6 +289,16 @@
       align-items: center;
       object-fit: cover;
    }
+   .t3{
+     position: absolute;
+     color: #FF029C;
+     font-family:Pomidor;
+     font-size: 5vw;
+     top:7vw;
+     left: 5vw;
+
+   }
+   
    .im12{
      display: grid;
      width: 100%;
