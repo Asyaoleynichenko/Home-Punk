@@ -1,16 +1,26 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 .h1{
   font-size: 90px;
 }
 .container2{
   grid-template-rows: 1fr 1fr 1fr  ;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "box7 box8 box8"
-  "box9 box10 "
+  grid-template-areas: "box7"
   "box9 box10"
+  "box9 box10 "
 }
 .container3{
-  grid-template-rows: 1fr 1fr 1fr 1fr  ;
+  grid-template-rows: 0.5fr 1fr  ;
   rid-template-columns: 1fr 1fr;
-  grid-template-areas: "box7 box8"
+  grid-template-areas:
 }
+.box7{
+
+}
+.box9{
+  height: 8.680vw;;
+
+}
+.box10{
+  height: 36.25vw;
+} */
