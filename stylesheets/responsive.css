@@ -2,3 +2,15 @@
 .h1{
   font-size: 90px;
 }
+.container2{
+  grid-template-rows: 1fr 1fr 1fr  ;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "box7 box8 box8"
+  "box9 box10 "
+  "box9 box10"
+}
+.container3{
+  grid-template-rows: 1fr 1fr 1fr 1fr  ;
+  rid-template-columns: 1fr 1fr;
+  grid-template-areas: "box7 box8"
+}
