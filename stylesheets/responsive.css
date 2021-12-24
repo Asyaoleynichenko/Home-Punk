@@ -25,7 +25,9 @@ height: 25.026vw;
 .box10 {
 height: 85.026vw;
    grid-area: box10; }
-
+.box14{
+  height: 30vw;
+}
 .box8 {
 height: 85.026vw;
   grid-area: box8; }
