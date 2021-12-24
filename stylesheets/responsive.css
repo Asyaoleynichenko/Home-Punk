@@ -23,20 +23,21 @@ height: 25.026vw;
    grid-area: box7; }
 
 .box10 {
-height: 85.026vw;
+height: 85vw;
    grid-area: box10; }
 .box14{
   height: 30vw;
 }
 .box8 {
-height: 85.026vw;
+height: 85vw;
   grid-area: box8; }
 .im9{
   height: 55vw;
   padding-left: 1vw;
   padding-top: 10vw;
 }
-
+.eyes{
+}
 .im7{
   height: 25vw;
 }
@@ -49,10 +50,10 @@ height: 85.026vw;
  100% {left:0vw;}
 }
 .im8{
-  height: 85vw;
+  height:85vw;
 }
 .eyes{
-  height: 35.026vw;
+  height: 35vw;
 }
 .t3{
   font-size:6vw;
@@ -64,11 +65,11 @@ height: 85.026vw;
   100%{opacity:100%;}
 }
 @keyframes t1 {
-  0% {top:6vw; left: 1vw;}
+  0% {top:7vw; left: 1vw;}
   25% {top:4vw; left: 1vw;}
-  50% {top:6vw; left: 1vw;}
+  50% {top:7vw; left: 1vw;}
   75% {top:8vw; left: 1vw;}
-  90% {top:6vw; left: 1vw;}
+  90% {top:7vw; left: 1vw;}
 }
   .im9{
     width: 10vw;
@@ -77,6 +78,7 @@ height: 85.026vw;
      object-fit: cover;
      animation:im9 .3s infinite;
   }
+
   }
   .t1{
     font-size: 6vw;
