@@ -1,13 +1,13 @@
 @media only screen and (min-device-width: 316px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
 .h1{
-  font-size: 144px;
+  font-size: 45vw;
 }
 .box2{
   height: 64.9vw;
 }
 .container2 {  display: grid;
-  grid-template-columns: 1fr 3fr 3.5fr;
+  grid-template-columns: 1fr 3fr 4fr;
   grid-template-rows: 0.2fr 0.2fr ;
   grid-template-areas:
     "box7 box7 box7"
@@ -30,17 +30,28 @@ height: 85.026vw;
 height: 85.026vw;
   grid-area: box8; }
 .im9{
-  height: 50vw;
+  height: 55vw;
+  padding-left: 1vw;
+  padding-top: 10vw;
 }
 
-
+.im7{
+  height: 25vw;
+}
+@keyframes im7 {
+ 0% {left:0vw;}
+ 50%{left:5vw;}
+ 100% {left:0vw;}
+}
 .im8{
-  height: 85.026vw;
+  height: 85vw;
 }
 .eyes{
   height: 35.026vw;
 }
-
+.t3{
+  font-size:6vw;
+}
 @keyframes eyes {
   0%{opacity:100%;}
   50%{opacity:0%;}
@@ -60,13 +71,44 @@ height: 85.026vw;
      object-fit: cover;
      animation:im9 .3s infinite;
   }
+  }
   .t1{
-    font-size: 7vw;
+    font-size: 6vw;
   }
   @keyframes im9 {
     0%{opacity:100%;}
     50%{opacity:0%;}
     100%{opacity:100%;}
+  }
+  @-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+  }
+
+  @-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0)
+    }
   }
 }
 }
