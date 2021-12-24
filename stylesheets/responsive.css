@@ -40,6 +40,9 @@ height: 85.026vw;
 .im7{
   height: 25vw;
 }
+.box16{
+  height: 50vw;
+}
 @keyframes im7 {
  0% {left:0vw;}
  50%{left:5vw;}
