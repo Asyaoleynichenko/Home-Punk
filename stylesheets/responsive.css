@@ -23,20 +23,18 @@ height: 25.026vw;
    grid-area: box7; }
 
 .box10 {
-height: 85vw;
+height: 75vw;
    grid-area: box10; }
 .box14{
   height: 30vw;
 }
 .box8 {
-height: 85vw;
+height: 75vw;
   grid-area: box8; }
 .im9{
   height: 55vw;
   padding-left: 1vw;
   padding-top: 10vw;
-}
-.eyes{
 }
 .im7{
   height: 25vw;
@@ -50,10 +48,11 @@ height: 85vw;
  100% {left:0vw;}
 }
 .im8{
-  height:85vw;
+  height:75vw;
 }
 .eyes{
-  height: 35vw;
+  height: 32vw;
+  top: 43vw;
 }
 .t3{
   font-size:6vw;
@@ -212,14 +211,7 @@ height: 60vw;
 
   }
   .box9 {
-    display: relative;
-    align-items: center;
-    justify-content: space-around;
-    max-width:100%;
-    grid-area: box9;
-    background-color: black;
-    /* overflow: hidden;
-    white-space: nowrap; */
+  height: 75vw;
   }
 
   .box10 {
